@@ -1,43 +1,117 @@
-@charset "utf-8";
-/* CSS Document */
-*{ padding:0; margin:0; list-style:none; text-decoration:none; border:none; font-family:"微软雅黑"; color:#FFF;}
-img{display:block;}
-.header{overflow: hidden; width:100%; background-color:rgb(66,71,75); position:fixed; z-index:1;}
-.header_title{ width:60%; margin:0 auto;}
-.header_name{ width:30%; float:left; line-height:50px; color:white; font-size:14px;}
-.header ul{ width:70%; float:right;  line-height:50px; color:white;}
-.header ul li{float:right; margin-left:55px; font-size:14px;}
-
-.bigkuang{background-color:rgb(24,137,197); width:100%; overflow:hidden; padding-bottom:125px;}
-.picture{width:50%;margin:0 auto;}
-.picture img{float:left; }
-.img1{width:80px; height:80px;position: relative;left:10%; top:155px;}
-
-.img2{width:251px; height:251px;position: relative; left:calc(50% - 125px);}
-
-.img3{width:80px; height:80px;position: relative; left:calc(70% + 115px); top:-165px;}
-
-.world{color:#FFF; font-size:16px; margin:0 auto; width:50%; line-height:25px; margin-top:40px;}
-.world ul{float:left;}
-.world_first{margin-left:100px;}
-.world_second{ margin-left:140px;}
-
-.grow{background-color:rgb(156,88,182); padding-top:100px; padding-bottom:100px; width:100%;}
-.grow p1{text-align:center; font-size:36px; position:relative; left:calc(50% - 72px);}
-.grow li{ width:50%; margin:0 auto; margin-top:100px; padding-bottom:100px;font-size:16px;}
-
-.contain{background-color:rgb(38,177,182); width:100%; overflow:hidden; padding-bottom:100px;}
-.contain_title li{ font-size:36px; text-align:center; padding-top:100px;}
-.list{ margin:0 auto; width:50%; padding-top:100px; margin-right:400px;}
-.list ul{float:left; width:calc(25% - 10px);}
-.list ul li{font-size:18px;}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>rainyleon</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
 
 
-.work{background-color:rgb(18,157,231); width:100%; overflow:hidden;}
-.work_contain li{ font-size:36px; text-align:center; padding-top:100px;}
-.undergo{ margin:0 auto; width:30%; padding-top:150px;}
-.undergo ul{ float:left; width:50%;}
-.undergo ul li{font-size:18px;}
+</head>
+<body>
+<div class="header">
+<div class="header_title">
+<div class="header_name"><a>rainyleon</a></div>
+<ul>
+<li>联系方式</li>
+<li>工作经历</li>
+<li>专业技能</li>
+<li>成长经历</li>
+<li>个人简历</li>
+</ul>
+</div>
+</div>
 
-.bottom{background-color:rgb(237,100,97); width:100%; overflow:hidden; margin-top:300px; padding-top:400px; padding-bottom:400px;}
-.bottom_email li{ font-size:24px; text-align:center;}
+<div class="bigkuang"><div class="picture">
+<div class="img1"><img src="img/logo1.png"></div>
+<div class="img2"><img src="img/via.png"></div>
+<div class="img3"><a href="mailto:a13967899938@163.com"><img src="img/logo2.png"></a></div>
+
+</div>
+<div class="world">
+<ul class="world_first">
+<li>姓名丨潘宇轩-rainyleon</li>
+<li>手机丨18069151995</li>
+<li><a href="mailto:a13967899938@163.com">邮箱丨a13967899938@163.com</a></li>
+<li>所在地丨宁波</li>
+<li><a href="https://github.com/rainyleon">Github丨点我进入</a></li>
+
+</ul>
+<ul class="world_second">
+<li>我是一个性格幽默、做事认真的人</li>
+<li>我喜欢研究所碰到的各种技术，不给自己设边界。</li>
+<li>我有时间概念，能在约定时间内保证完成任务。</li>
+<li>了解平面设计，熟练使用主流设计软件 Photoshop、AI 等; </li>
+<li>了解网页设计，熟练使用 Dreamweaver 软件;</li>
+ <li>能够独立的完成企业站、专题站、了解网站设计规范。<li>
+ <li>熟练使用 DIV+CSS、 HTML 搭建网站;</li>
+ <li>能用 JavaScript、JQuery 制作简单的效果;</li>
+
+</ul>
+</div>
+</div>
+
+<div class="grow">
+<p1>成长经历</p1>
+<li>在读于衢州学院，今年大四，专业是视觉传达设计，但希望web前端发展，自学 HTML/CSS，能够搭建基础的网站，虽然不是计算机专业的，但对前端十分感兴趣，自学1年有余，希望在实习中能不断进步，想找一份前端实习的工作，现阶段水平不够但希望在日后的实习中不断学习，为公司做出贡献。</li>
+
+</div>
+
+
+
+<div class="contain">
+<div class="contain_title"><ul><li>专业技能</li></ul></div>
+
+<div class="list">
+<ul><li>语言</li>
+<li>HTML(5)</li>
+<li>CSS(3)</li>
+<li>javascript</li></ul>
+
+<ul><li>思想</li>
+<li>响应式设计</li>
+<li>W3C标准</li>
+</ul>
+
+<ul><li>框架</li>
+<li>JQuery</li>
+<li>Bootstrap</li>
+</ul>
+
+<ul><li>技术</li>
+<li>PS</li>
+<li>AI</li>
+<li>DW</li></ul>
+</div>
+
+
+</div>
+
+
+<div class="work">
+<div class="work_contain"><ul><li>工作经历</li></ul></div>
+
+<div class="undergo">
+<ul><li>2014.09-NOW</li>
+<li>衢州学院</li>
+<li>视觉传达设计</li>
+</ul>
+
+<ul><li>2017.10-2017.12</li>
+<li>宁波顺乐网络有限公司</li>
+<li>网页设计师</li>
+</ul>
+
+</div>
+
+<div class="bottom">
+<div class="bottom_email"><ul><li>快把我收到碗里吧
+</li>
+<li>a13967899938@QQ.oom</li>
+</ul></div>
+</div>
+
+
+
+
+</body>
+</html>
