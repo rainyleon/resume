@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0; list-style:none; text-decoration:none; border:none; font-family:"微软雅黑"; color:#FFF;}
+img{display:block;}
+.header{overflow: hidden; width:100%; background-color:rgb(66,71,75);}
+.header_title{ width:60%; margin:0 auto;}
+.header_name{ width:30%; float:left; line-height:50px; color:white; font-size:14px;}
+.header ul{ width:70%; float:right;  line-height:50px; color:white;}
+.header ul li{float:right; margin-left:55px; font-size:14px;}
+
+.bigkuang{background-color:rgb(24,137,197); width:100%; overflow:hidden; padding-bottom:125px;}
+.picture{width:50%;margin:0 auto;}
+.picture img{float:left; }
+.img1{width:80px; height:80px;position: relative;left:10%; top:155px;}
+
+.img2{width:251px; height:251px;position: relative; left:calc(50% - 125px);}
+
+.img3{width:80px; height:80px;position: relative; left:calc(70% + 115px); top:-165px;}
+
+.world{color:#FFF; font-size:16px; margin:0 auto; width:50%; line-height:25px; margin-top:40px;}
+.world ul{float:left;}
+.world_first{margin-left:100px;}
+.world_second{ margin-left:140px;}
+
+.grow{background-color:rgb(156,88,182); padding-top:100px; padding-bottom:100px; width:100%;}
+.grow p1{text-align:center; font-size:36px; position:relative; left:calc(50% - 72px);}
+.grow li{ width:50%; margin:0 auto; margin-top:100px; padding-bottom:100px;font-size:16px;}
+
+.contain{background-color:rgb(38,177,182); width:100%; overflow:hidden; padding-bottom:100px;}
+.contain_title li{ font-size:36px; text-align:center; padding-top:100px;}
+.list{ margin:0 auto; width:50%; padding-top:100px; margin-right:400px;}
+.list ul{float:left; width:calc(25% - 10px);}
+.list ul li{font-size:18px;}
+
+
+.work{background-color:rgb(18,157,231); width:100%; overflow:hidden;}
+.work_contain li{ font-size:36px; text-align:center; padding-top:100px;}
+.undergo{ margin:0 auto; width:30%; padding-top:150px;}
+.undergo ul{ float:left; width:50%;}
+.undergo ul li{font-size:18px;}
+
+.bottom{background-color:rgb(237,100,97); width:100%; overflow:hidden; margin-top:300px; padding-top:400px; padding-bottom:400px;}
+.bottom_email li{ font-size:24px; text-align:center;}
