@@ -24,7 +24,10 @@ img{display:block;}
 .img2{width:251px; height:251px;position: relative; left:calc(50% - 125px);}
 
 .img3{width:80px; height:80px;position: relative; left:calc(70% + 115px); top:-165px;}
-
+.img1{display:inline-block; height:80px; width:80px; text-indent: -9999em;-webkit-transition:0.4s linear;transition:0.4s ease-in;}
+.img1:hover{-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+.img3{display:inline-block; height:80px; width:80px; text-indent: -9999em;-webkit-transition:0.4s linear;transition:0.4s ease-in;}
+.img3:hover{-webkit-transform:rotate(360deg);transform:rotate(360deg);}
 
 
 .world{color:#FFF; font-size:16px; margin:0 auto; width:50%; line-height:25px; margin-top:40px;}
