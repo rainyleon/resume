@@ -587,3 +587,12 @@ a {
         transition: all ease 0.3s,
     }
 }
+
+
+@media screen and (max-width: 500px) {
+     .vvv{
+        width: 150px!important;
+        margin-top: 160px!important;
+    }
+
+}
